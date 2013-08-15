@@ -90,7 +90,7 @@ function OutputMiniDisplay($display, $item)
 
 // Use explicit error handling rather than exceptions
 yDisableExceptions();
-logtofile("Start Callback");
+
 // Setup the API to use the VirtualHub on local machine
 $errmsg = "";
 if(yRegisterHub('callback',$errmsg) != YAPI_SUCCESS) {
