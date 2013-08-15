@@ -14,7 +14,7 @@ define("NB_FEED_ITEM_TO_SHOW",0);
 //nb millisecond for the transition
 define('TRANSITION_DURATION',500);
 //nb millisecond for the transition
-define('DISPLAY_DURATION',1000);
+define('DISPLAY_DURATION',20000);
 
 
 //helper function that will save message into the 
